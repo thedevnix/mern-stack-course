@@ -1,0 +1,125 @@
+HTML (HyperText Markup Language) – Easy Notes
+
+HTML = HyperText Markup Language
+It is used to create and structure webpages.
+
+HyperText: Links that connect pages.
+
+Markup Language: Use tags to give structure to plain text.
+
+First Website: CERN First Webpage
+
+1. Software Needed
+
+Visual Studio Code (VS Code) – Write code
+Download VS Code
+
+VS Code Extensions:
+
+Live Preview / Live Server → see changes live
+
+Prettier → format code nicely
+
+2. Headings: <h1> to <h6>
+
+Use: Titles & subtitles.
+Hierarchy: <h1> = most important, <h6> = least important.
+
+<h1>Main Title</h1>
+<h2>Section Title</h2>
+<h3>Sub-section</h3>
+
+
+Tip: Only one <h1> per page.
+Purpose: Structure content for readers & search engines.
+
+3. Paragraphs: <p>
+
+Use: Group sentences into paragraphs.
+
+<p>This is the first paragraph.</p>
+<p>This is a second paragraph.</p>
+
+
+Tip: Don’t use <br> for spacing between paragraphs.
+
+4. Horizontal Line: <hr>
+
+Use: Divide sections of content.
+
+<p>Topic 1</p>
+<hr>
+<p>Topic 2</p>
+
+5. Line Break: <br>
+
+Use: Start a new line inside the same paragraph.
+
+<p>221B Baker Street<br>
+London, England</p>
+
+6. Lists: <ul>, <ol>, <li>
+
+<ul> → Unordered list (bullets)
+
+<ol> → Ordered list (numbers)
+
+<li> → Each list item
+
+<ul>
+  <li>Tea Bag</li>
+  <li>Water</li>
+  <li>Sugar</li>
+  <li>Milk</li>
+</ul>
+
+<ol>
+  <li>Boil water.</li>
+  <li>Add tea, sugar, milk.</li>
+  <li>Boil 5 minutes.</li>
+  <li>Serve tea.</li>
+</ol>
+
+7. Links: <a>
+
+Use: Make text or images clickable.
+Required attribute: href → link destination
+
+<a href="https://www.coderarmy.in/">Visit Coder Army</a>
+
+
+Open link in new tab:
+
+<a href="https://www.coderarmy.in/" target="_blank">Visit Coder Army</a>
+
+
+target options:
+
+_self → same tab (default)
+
+_blank → new tab
+
+8. Images: <img>
+
+Use: Show images on webpage.
+Attributes:
+
+src → image path or URL (mandatory)
+
+alt → description for accessibility
+
+<img src="https://cdn.britannica.com/16/234216-050-C66F8665/beagle-hound-dog.jpg" 
+     alt="Dog photo" 
+     width="300px" 
+     height="300px">
+
+
+Tip: Always write alt for accessibility.
+
+✅ Quick HTML Tips
+
+HTML tags usually come in pairs: <tag>content</tag>
+
+Some tags are self-closing: <hr>, <br>, <img>
+
+Always structure your page with headings → paragraphs → lists → links/images
