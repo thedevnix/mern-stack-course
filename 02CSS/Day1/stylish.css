@@ -1,0 +1,77 @@
+/* This sheet is used for practicing units in css */
+
+/*  em bolta hai jo mera size hoga wo mere parent ke hisab se hoga  */
+
+ul
+{
+    font-size: 20px;
+}
+
+
+/* li{
+    font-size: 2em;
+
+} */
+
+/* mera size hoga root ke multiple mai */
+
+
+html{
+
+    /* iska size matlab root(HTML) ka size change ho Jaayega */
+    font-size: 40px;
+}
+
+h2{  
+    font-size: 2em;
+}
+
+h2{
+    /* screen ke width se size 2% hoga )  calculate hota hai  */
+
+    font-size: 2vw;
+}
+
+
+/* li{
+    /* screen ke heigh se 3% calculate hoga font ka size */
+    /* font-size: 3vh; */
+/* } /** */
+
+
+/* Pwercentage unit */
+
+li
+{   
+    /* size aadha hojayega parent ke size se  */
+    font-size: 50%;
+}
+
+
+h2{
+    /* fall back mechnaism if one size is not present it will choose another */
+    font-family: 'Courier New', Courier, monospace;
+    /* goes from 100 to 900 */
+    font-weight: 100;
+
+    /* shows italic way */
+    font-style: italic;
+
+
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+/* if fonts not present then we go to google and search for google fonts to make use of different type of fonts */
+
+
+
+
+
+

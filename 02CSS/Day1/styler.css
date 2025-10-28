@@ -1,0 +1,87 @@
+/* Selector selecting element using tags */
+/* h1{
+    background-color: purple;
+    font-size: 100px;
+} */
+
+
+ul{
+    background-color: aqua;
+
+}
+
+
+/* Selecting Only one h2 */
+/* Id based Selection */
+/* Id can be acesed by # */
+
+#first{
+         background-color: brown;
+}
+
+#second{
+    background-color: pink;
+}
+
+
+/* Selecting element on class based */
+/* class can be accessed through . */
+
+.third{
+    background-color: green;
+}
+
+
+/* Group based selection */
+
+/* h1 , .fourth{
+    background-color: aqua;
+} */
+
+
+/* h1{
+
+    /* Can generate any color using rgb */
+    /* background-color: rgb(43, 43, 3);   */
+    /* RGB (0-255) */
+
+    /* 8 bit -> 3 byte Menmbory */
+
+
+    /* rgb fourth value tells transparency */
+/* } */
+
+
+/* hsl and hsla hue hte pure color itself saturation means intensity    lightness tells brightness  0% black 100% white normal range 50*/
+/* fourth value is introduced in hsl */
+
+
+
+/* HSLA color */
+
+
+/* h1{
+
+    background-color: #639747;
+    first two red , second gren , then other two 
+    using hexadecimal value for perfrct color
+} */
+
+
+
+/* CSS Fonts */
+h1{
+    font-size: 32px;
+}
+
+/* Pixel is Picture element */
+/* pixel cannot be calculated in inch */
+
+/* image ki sabse smallest unit ko pixel bola chata hai */ 
+
+
+
+/* divide the pic i row and columns and take smallest box and note each box colour and yeh we have stored the image */
+
+/* 1920*1080*3bytes*/
+/* size will be 6mb */
