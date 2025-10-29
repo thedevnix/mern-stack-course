@@ -1,0 +1,85 @@
+
+/* changing default padding and Marging */
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+
+/* partucular porttion ke text ko change karna hai toh span use kar sakte hai */
+/* span is inline element */
+/* span{
+    background-color: aqua;
+    color: red;
+} */
+
+
+/* diff between inline and block line element */
+
+h1{
+     /* h1 is a block level element */
+     /* block level element take full width */
+
+     background-color: aqua;
+     /* padding: 20px; */
+     /* we can apply height and width to block level element */
+     height: 300px;
+     width: 300px;
+     padding: 20px;
+     border: 10px solid orange;
+     /* border size keweal content waali hogi */
+     box-sizing: content-box;
+     /* padding: 40px;
+     margin: 50px; */
+     /* coverting element into inline */
+     /* display: inline; */
+     /* display: inline; */
+}
+
+
+h2{
+    /* h2 is a block element , takes full width and always start from new line */
+    background-color: brown;
+     height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 10px solid orange;
+    /* border se andar tk size napna shuru karuga */
+    box-sizing: border-box;   
+    /* display:inline-block; */
+    /* display: inline; */
+}
+
+
+/* span{ */
+
+
+    /* inline elements only if want to apply padding can be done horizontally , for margin also. */
+    /* we cannot apply height and width to the span level element */
+    /* Span is a inline element which only take specific width */
+    /* it does not start from new */
+    /* background-color: blanchedalmond; */
+/* } */
+
+
+span{
+    /* height: 200px;
+    width: 300px;
+    padding: 20px; */
+    /* margin: 20px; */
+
+    margin-top: 50px;
+    margin-bottom: 150pxpx;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    /* padding-top: 50px;
+    padding-bottom: 70px; */
+
+     /* Margin let and right wil be applicable */
+
+     background-color: pink;
+     /* converting span into block element */
+     /* display: block; */
+
+
+}

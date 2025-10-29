@@ -1,0 +1,68 @@
+h1{
+    background-color: orange;
+    /* height and width will be applicable on content */
+    height: 200px;
+    width: 200px;
+    
+
+    /* border width - 10 px border style ssolid border color green */
+    /* border: 15px solid green; */
+    
+
+    /* border se join text ko hatana */
+    /* padding: 50px; */
+
+    /* distance ko badana hai h1 and h2 ke beech mai */
+
+    /* margin: 30px; */
+
+    /* border-top: 10px solid black;  */
+
+    /* border right , border bottom , bottom left */
+
+    border: 10px solid black;
+    /* bodrder par radius apply karna */
+    border-radius: 30px;
+    /* padding-left: 10px;
+    padding-right: 20px; */
+    
+
+    /* Top right bottom left */
+    /* padding: 10px 20px 30px 40px;  */
+
+    /* padding top and bottom se 20 px and 40 px ka matlab left and right se padding 40px */
+
+    padding: 20px 40px;
+
+
+    /* margin-top: 50px; */
+
+    /* margin: 10px 20px 30px 40 px; */
+
+
+
+
+
+
+
+    
+
+}
+
+
+
+h2{
+    background-color: pink;
+    border: 2px solid blue;
+}
+
+P{
+    background-color: aqua;
+    border: 20px solid pink;
+    padding: 5px;   
+    /* padding ka kaam hai jo mera content hai wo border ke saath touch nhi ho */
+    margin: 30px;
+    
+
+}
+
