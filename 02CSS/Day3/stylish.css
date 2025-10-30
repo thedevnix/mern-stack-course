@@ -1,0 +1,59 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+
+
+
+h2{
+    background-color: orange;
+
+    /* relative apni position par kisi ko nhi aane dete */
+    /* can move the element using relative */
+
+    /* position: relative;
+    
+    left: 50px;
+    top: 50px; */
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+   
+}
+
+h3{
+    background-color: pink;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    z-index: 10;
+    
+}
+
+h4{
+      /*  position : absolute apni jagah chor deta hai  */
+
+      background-color: brown;
+      position:sticky;
+
+      /* top jaise hee 0px hojaye toh mujhe fix kar dena */
+      top: 10px;
+      
+}
+
+
+p{
+
+    /* absolute apni jagah chor deta hai  */
+
+    /* jo iska ancestor positioning ko main relative sticy and fixed mark kara hoga unke usmai apne aap ko position karega */
+    background-color: chartreuse;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    margin: 0px;
+    z-index: 10;
+
+
+    /* jismai zindex ki value jyada upar aa jata hai (not understooD) */
+}
