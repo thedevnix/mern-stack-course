@@ -1,0 +1,31 @@
+#container{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+}
+
+
+#circle
+{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 105px;
+    z-index: 10;
+    
+}
+
+.Blue{
+    height: 100px; 
+    width: 300px;
+    background-color: #002868;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    
+}
+
