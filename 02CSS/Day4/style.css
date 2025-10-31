@@ -1,0 +1,86 @@
+
+.container{
+    background-color: antiquewhite;
+    /* converted into inline */
+    height: 500px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /* flex-wrap: wrap-reverse; */
+    /* align-items: end; */
+       
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse;  */
+    /* flex-direction: column; */
+
+
+    /* justify-content: center; */
+    /* justify-content: start;  */
+    /* justify-content: end; */
+ 
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* justify-content: space-around; */
+       /* justify-content: space-between; */
+       /* justiify content will work mainly around main axis */
+       /* justify-content: center; */
+       /* flex-direction: column; */
+       /* justify-content: end; */
+       /* align item works aroud cross axis */
+       /* justify-content: space-evenly */
+
+       
+
+
+  
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px; */
+ 
+}
+
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    /* overide the width of box and it has been given Highest priority */
+    /* man axis ke around jo bhi  hai aapka uska col wise height ko increase kardega and row-wise width ko increase kar dega */
+    /* flex-basis: 200px; */
+}
+
+.second{
+    background-color: green;
+    /* flex shrink flex basis flex grow ek saath lag jaate hai  */
+    /* flex:auto; */
+    /* flex-shrink: 5; */
+    /* flex-grow: 2; */
+}
+
+.third{
+    background-color: red;
+    /* flex-grow: 3; */
+    /* bacche ko hatana hai  */
+    /* align-self: flex-start; */
+}
+
+.fourth{
+    background-color: chartreuse;
+    /* flex-grow: 4; */
+}
+
+
+
+
+
+
+
+  
